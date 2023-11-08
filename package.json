@@ -1,6 +1,6 @@
 {
   "name": "com.konrad.game-event-system",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "Game Event System",
   "description": "Reusable Game Event System using Scriptable Objects.",
   "unity": "2022.1",
