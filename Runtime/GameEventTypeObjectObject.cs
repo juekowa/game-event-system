@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameEventSystem
 {
-    [CreateAssetMenu(menuName = "Game Events/Type, Object, Object", order = 202, fileName = "New Type, Object, Object Game Event")]
+    [CreateAssetMenu(menuName = OrderMode.Menu + "Type, Object, Object", order = OrderMode.LevelComplex + 15, fileName = "New Type, Object, Object Game Event")]
     public class GameEventTypeObjectObject : ScriptableObject
     {
         public event Action<Type, object, object> OnEventRaised = delegate { };

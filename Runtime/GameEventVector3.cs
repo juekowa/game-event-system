@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameEventSystem
 {
-    [CreateAssetMenu(menuName = "Game Events/Vector3", order = 5, fileName = "New Vector3 Game Event")]
+    [CreateAssetMenu(menuName = OrderMode.MenuUnity + "Vector3", order = OrderMode.LevelUnityTypes + 20, fileName = "New Vector3 Game Event")]
     public class GameEventVector3 : ScriptableObject
     {
         public event Action<Vector3> OnEventRaised = delegate { };
