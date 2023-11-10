@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameEventSystem
 {
-    [CreateAssetMenu(menuName = "Game Events/Color, Color", order = 29, fileName = "New Color, Color Game Event")]
+    [CreateAssetMenu(menuName = OrderMode.MenuUnityTwoParameters + "Color, Color", order = OrderMode.LevelUnityTwoParameters + 30, fileName = "New Color, Color Game Event")]
     public class GameEventColorColor : ScriptableObject
     {
         public event Action<Color, Color> OnEventRaised = delegate { };

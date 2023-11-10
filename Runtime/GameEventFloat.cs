@@ -3,7 +3,7 @@ using UnityEngine;
 
 namespace GameEventSystem
 {
-    [CreateAssetMenu(menuName = "Game Events/Float", order = 2, fileName = "New Float Game Event")]
+    [CreateAssetMenu(menuName = OrderMode.Menu + "Float", order = OrderMode.BaseLevel + 5, fileName = "New Float Game Event")]
     public class GameEventFloat : ScriptableObject
     {
         public event Action<float> OnEventRaised = delegate { };
